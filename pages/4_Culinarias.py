@@ -7,6 +7,7 @@ import streamlit as st
 import folium
 from streamlit_folium import folium_static
 from PIL import Image
+import inflection
 
 st.set_page_config(page_title="Visão Culinárias", layout="wide")
 
